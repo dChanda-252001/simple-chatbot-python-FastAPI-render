@@ -19,7 +19,7 @@ async function sendMessage() {
     input.value = "";
 
     // API Call
-    let response = await fetch("http://127.0.0.1:8000/chat", {
+    let response = await fetch("https://simple-chatbot-python-fastapi-render.onrender.com/chat", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
